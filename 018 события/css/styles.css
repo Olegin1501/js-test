@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+button{
+    display: inline-block;
+    padding: 10px 30px;
+    background: green;
+    border-radius: 5px;
+    margin: 10px;
+    color: #fff;
+}
+a{
+    display: block;
+    margin: 20px 10px;
+}
