@@ -23,7 +23,7 @@ inputRub.addEventListener('input',()=>{                    /*при вводе �
     request.setRequestHeader('Content-type','application/json; charset=utf-8');     /*настройки запроса*/
     request.send();                 /*то что нужно отослать на сервер*/
 
-    request.addEventListener('readystatechange', function(){
+    request.addEventListener('readystatechange', function(){            
         if (request.readyState===4 && request.status==200) {
             let data = JSON.parse(request.response);
 
