@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+body{
+    background: linear-gradient(90deg,#ffffff 0%, #f0f509 80%);
+}
+.bb{
+    border: 1px solid;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.list{
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+img{
+    width: 30%;
+}
+button{
+    width: 15%;
+    height: 30px;
+}
+.active{
+    background: blue;
+    color: #fff;
+    transition: 0.5s;
+    width: 20%;
+    height: 35px;
+}
